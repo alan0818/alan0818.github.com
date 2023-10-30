@@ -1,0 +1,184 @@
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+header p {
+    font-size: 16px;
+}
+/* Estilo para la sección "Sobre Mí" */
+#sobremi {
+    background-color: #f5f5f5;
+}
+#sobremi img {
+    max-width: 100%;
+}
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+/* Estilo para el contenedor de "Inicio" */
+.navbar{
+    background-color: transparent;
+}
+/* Estilo para la barra de navegación */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+header p {
+    font-size: 16px;
+}
+/* Custom Navigation Styles */
+.navbar .nav-item {
+    padding: 5px 95px; /* Ajusta el espaciado alrededor del elemento "Inicio" */
+    margin: 0 30px;
+    width: auto; /* Permite que el ancho se ajuste automáticamente al contenido */
+    height: 30px; /* Alto del contenedor */
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.custom-navbar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+.custom-navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.custom-navbar li {
+    margin: 0 20px;
+}
+.custom-navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.container2 {
+    background-color: black;
+}
+/* Tamaño personalizado */
+.proyecto {
+    display: flex;
+    align-items: center;
+}
+.mi-icono {
+    font-size: 50px; /* Tamaño del icono, ajusta según tus necesidades */
+    margin-right: 20px; /* Espacio entre el icono y el texto, ajusta según tus necesidades */
+    color: black;
+}
+.mi-boton {
+    background-color: #1db3bd; /* Cambia el color de fondo a azul */
+    color: white; /* Cambia el color del texto a blanco */
+    padding: 10px 20px; /* Añade espacio interno al botón */
+    border: none; /* Quita los bordes del botón */
+    border-radius: 5px; /* Agrega bordes redondeados al botón */
+    text-align: center; /* Centra el texto horizontalmente en el botón */
+    text-decoration: none; /* Quita la subrayado del texto */
+    display: inline-block; /* Permite que el botón se comporte como un bloque en línea */
+    font-size: 16px; /* Tamaño del texto */
+}
+.mi-boton:hover {
+    background-color: #7e8386; /* Cambia el color de fondo cuando se pasa el cursor sobre el botón */
+}
+.logo {
+    margin-left: 170px;
+}
+#sombra {
+    transition: box-shadow 0.2s; /* Agrega una transición suave para el cambio de sombra */
+}
+#sombra:hover {
+    transform: scale(1.1);
+    box-shadow: 11px 9px 15px #0d1ad7;
+    border: 2px solid #000000;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+.mi-icono1 {
+    font-size: 50px; /* Tamaño del icono, ajusta según tus necesidades */
+    margin-right: 100px; /* Espacio entre el icono y el texto, ajusta según tus necesidades */
+    margin-left: 10px;
+    color: #bd1d1d;
+}
+.mi-icono1:hover {
+    color: #000000;
+    transform: scale(1.9);
+    box-shadow: 11px 9px 15px #000000;
+    border: 1px solid #0511ff;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+.mi-icono2 {
+    font-size: 40px; /* Tamaño del icono, ajusta según tus necesidades */
+    margin-right: 100px; /* Espacio entre el icono y el texto, ajusta según tus necesidades */
+    margin-left: 10px;
+}
+.mi-icono2:hover {
+    color: rgb(0, 0, 0);
+    transform: scale(1.9);
+    box-shadow: 11px 9px 15px #000000;
+    border: 1px solid #0511ff;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+.mi-icono3 {
+    font-size: 40px; /* Tamaño del icono, ajusta según tus necesidades */
+    margin-right: 100px; /* Espacio entre el icono y el texto, ajusta según tus necesidades */
+    margin-left: 10px;
+    color: rgb(235, 53, 219);
+}
+.mi-icono3:hover {
+    color: rgb(0, 0, 0);
+    transform: scale(1.9);
+    box-shadow: 11px 9px 15px #000000;
+    border: 1px solid #0511ff;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+.mi-icono4 {
+    font-size: 40px; /* Tamaño del icono, ajusta según tus necesidades */
+    margin-right: 100px; /* Espacio entre el icono y el texto, ajusta según tus necesidades */
+    margin-left: 10px;
+    color: rgb(30, 227, 57);
+}
+.mi-icono4:hover {
+    color: rgb(0, 0, 0);
+    transform: scale(1.9);
+    box-shadow: 11px 9px 15px #000000;
+    border: 1px solid #0511ff;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}

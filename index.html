@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Alan</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon/favicon.ico">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap-icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./CSS/index.css"> 
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Portafolio de Alan</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobremi">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="container2 text-white text-center py-5">
+            <div class="container">
+                <h1>Bienvenido a mi portafolio</h1>
+                <p>Licenciado en Tecnologías de la Información en los Negocios</p>
+                <a href="./pdf/CV_Alan.pdf" download>
+                    <button class="mi-boton">Descargar CV</button>
+                </a>                  
+            </div>
+        </section>
+        <section id="sobremi" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img loading="lazy" alt="Descripción de la imagen" src="./img/alan.jpg" class="img-fluid" alt="Foto de Alan">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>Sobre Mí</h2>
+                        <p>
+                            Soy un estudiante de 7º cuatrimestre de la carrera de Tecnologías de la Información en los Negocios en la Universidad Simón Bolívar, 
+                            comprometido con la excelencia y la constante superación. 
+                            A lo largo de mi formación académica, he adquirido un conjunto de habilidades que abarcan:
+                            <ul>
+                                <li>Programación</li>
+                                <li>Programación web</li>
+                                <li>Bases de datos</li>
+                                <li>Redes de Comunicación</li>
+                                <li>Librería Office</li>
+                            </ul>
+                            Cuento con entendimiento de las metodologías ágiles, especialmente SCRUM, lo que ha fortalecido mi capacidad para llevar a cabo proyectos de manera efectiva y colaborativa. Además, mi formación también incluye conocimientos en administración de empresas, lo que me brinda una perspectiva integral que puede aportar un valor significativo a las organizaciones.
+                        </p>
+                        <a href="#proyectos" class="btn btn-primary">Mis Proyectos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="proyectos" class="bg-light py-5">
+            <div class="container">
+                <h2>Mis Proyectos</h2>
+                <div class="proyecto">
+                        <i class="bi bi-github mi-icono"></i>
+                    </a>
+                    <p class="descripcion">Puedes encontrar mis proyectos directamente en mi GitHub dando click en la imagen.</p>
+                </div>
+                <div class="logo"> <!-- Envolver la imagen en un div centrado -->
+                    <a href="https://github.com/alan0818" target="_blank">
+                        <img loading="lazy" alt="Descripción de la imagen" src="./img/logo1.jpg" class="img-fluid" alt="Foto de Alan" id="sombra">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="py-5">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p class="descripcion">Para contactarme cuento con las siguientes redes haciendo click en el icono.</p>
+                <div class="proyecto">
+                    <a href="callto:+525585458176" target="_blank"> <i class="bi bi-telephone mi-icono2"></i></a>
+                    <a href="mailto:alan.rms.avila@gmail.com" target="_blank"> <i class="bi bi-envelope mi-icono1"></i></a>
+                    <a href="https://www.linkedin.com/in/alan-gerardo-ramos-avila-39a3b914a/" target="_blank"><i class="bi bi-linkedin mi-icono2"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100050776276394" target="_blank"> <i class="bi bi-facebook mi-icono2"></i></a>
+                    <a href="https://www.instagram.com/deadyetv" target="_blank"><i class="bi bi-instagram mi-icono3"></i></a>
+                    <a href="https://discord.com/invite/U97jgBX9" target="_blank"><i class="bi bi-discord mi-icono2"></i></a>
+                    <a href="./img/wsp.jpg" target="_blank"><i class="bi bi-whatsapp mi-icono4"></i></a>
+                    <a href="https://www.t.me/alan0818" target="_blank"><i class="bi bi-telegram mi-icono2"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center py-3">
+        <p>© Portafolio de Alan 2023</p>
+    </footer>
+    <script src="./JS/myscript.js"></script>
+    <script src="./JS/jquery-3.7.0.min.js"></script>
+    <script src="./JS/bootstrap.min.js"></script>
+    <script src="./JS/scripts.js"></script>
+</body>
+</html>

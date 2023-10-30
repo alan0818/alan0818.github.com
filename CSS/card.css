@@ -1,0 +1,27 @@
+.card{
+    height: 15rem;
+    background-color: rgba(171, 174, 29, 0.5);
+    .bi{
+        font-size: 3rem;
+    }
+    .card-title{
+        font-size: 1.3rem;
+    }
+    .card-text{
+        font-size: 0.9rem;
+    }
+}
+.card-mail{
+
+}
+.card:hover{ /*efecto del mouse */
+    transform: scale(1.05); /*efecto de zoom*/
+    box-shadow: 11px 9px 15px #b6c1c1;
+    border: 2px solid #000000;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    .bi, .card-title{
+        color:#d92616
+    }
+}
