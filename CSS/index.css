@@ -117,7 +117,7 @@ header p {
 }
 #sombra:hover {
     transform: scale(1.1);
-    box-shadow: 11px 9px 15px #0d1ad7;
+    box-shadow: 11px 9px 15px #4950b9;
     border: 2px solid #000000;
     position: relative;
     overflow: hidden;
@@ -133,7 +133,6 @@ header p {
     color: #000000;
     transform: scale(1.9);
     box-shadow: 11px 9px 15px #000000;
-    border: 1px solid #0511ff;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -147,7 +146,6 @@ header p {
     color: rgb(0, 0, 0);
     transform: scale(1.9);
     box-shadow: 11px 9px 15px #000000;
-    border: 1px solid #0511ff;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -162,7 +160,6 @@ header p {
     color: rgb(0, 0, 0);
     transform: scale(1.9);
     box-shadow: 11px 9px 15px #000000;
-    border: 1px solid #0511ff;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -177,8 +174,10 @@ header p {
     color: rgb(0, 0, 0);
     transform: scale(1.9);
     box-shadow: 11px 9px 15px #000000;
-    border: 1px solid #0511ff;
     position: relative;
     overflow: hidden;
     display: flex;
+}
+.imagen-redondeada {
+    border-radius: 15%; /* Hace que la imagen sea un círculo */
 }
